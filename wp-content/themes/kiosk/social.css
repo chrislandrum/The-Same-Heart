@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------------------*/
+	/*- SOCIAL BOOKMARKS -------------------------*/
+	ul.social-bookmarks{clear: both;}
+	ul.social-bookmarks li{float: left; border: none !important; list-style: none !important; width: auto !important;}
+		ul.social-bookmarks li a{display: block; width: 24px; height: 24px; background: url(images/layout/social-icons/social-set.png)  no-repeat; text-indent: -9999px; overflow: hidden;}
+		
+			ul.social-bookmarks li a.rss 		{background-position: -0px -0px;}
+			ul.social-bookmarks li a.cargo 		{background-position: -24px -0px;}
+			ul.social-bookmarks li a.behance 	{background-position: -48px -0px;}
+			ul.social-bookmarks li a.twitter 	{background-position: -72px -0px;}
+			ul.social-bookmarks li a.facebook 	{background-position: -96px -0px;}
+			ul.social-bookmarks li a.redux 		{background-position: -120px -0px;}
+			ul.social-bookmarks li a.delicious 	{background-position: -144px -0px;}
+			ul.social-bookmarks li a.digg 	    {background-position: -168px -0px;}
+			ul.social-bookmarks li a.tumblr 	{background-position: -192px -0px;}
+			ul.social-bookmarks li a.posterous 	{background-position: -216px -0px;}
+			ul.social-bookmarks li a.flickr 	{background-position: -240px -0px;}
+			ul.social-bookmarks li a.yahoo 		{background-position: -264px -0px;}
+			ul.social-bookmarks li a.stumble 	{background-position: -288px -0px;}
+			ul.social-bookmarks li a.reddit 	{background-position: -312px -0px;}
+			ul.social-bookmarks li a.linkedin 	{background-position: -336px -0px;}
+			ul.social-bookmarks li a.friendfeed {background-position: -360px -0px;}
+			ul.social-bookmarks li a.lastfm 	{background-position: -384px -0px;}
+			ul.social-bookmarks li a.polyvore 	{background-position: -408px -0px;}
+			ul.social-bookmarks li a.evernote 	{background-position: -432px -0px;}
+			ul.social-bookmarks li a.backtype 	{background-position: -456px -0px;}
+			ul.social-bookmarks li a.pinterest 	{background-position: -480px -0px;}
+			ul.social-bookmarks li a.ffffound 	{background-position: -504px -0px;}
+			ul.social-bookmarks li a.vimeo 	    {background-position: -528px -0px;}
+			ul.social-bookmarks li a.twitpic 	{background-position: -552px -0px;}
+			ul.social-bookmarks li a.myspace    {background-position: -576px -0px;}
+			ul.social-bookmarks li a.googleplus {background-position: -600px -0px;}
+			ul.social-bookmarks li a.forrst 	{background-position: -624px -0px;}
+			ul.social-bookmarks li a.dribbble 	{background-position: -648px -0px;}
+			ul.social-bookmarks li a.deviant 	{background-position: -672px -0px;}
+			ul.social-bookmarks li a.blogger 	{background-position: -696px -0px;}
+			ul.social-bookmarks li a.youtube 	{background-position: -720px -0px;}
+			ul.social-bookmarks li a.instagram 	{background-position: -744px -0px;}
+			ul.social-bookmarks li a.soundcloud {background-position: -768px -0px;}
+			ul.social-bookmarks li a.reverbnation {background-position: -792px -0px;}
+			
+			
+			/*-------------------------*/
+			/*- HOVER -----------------*/
+			ul.social-bookmarks li a.rss:hover 		{background-position: -0px -26px;}
+			ul.social-bookmarks li a.cargo:hover 	{background-position: -24px -26px;}
+			ul.social-bookmarks li a.behance:hover 	{background-position: -48px -26px;}
+			ul.social-bookmarks li a.twitter:hover 	{background-position: -72px -26px;}
+			ul.social-bookmarks li a.facebook:hover {background-position: -96px -26px;}
+			ul.social-bookmarks li a.redux:hover 	{background-position: -120px -26px;}
+			ul.social-bookmarks li a.delicious:hover{background-position: -144px -26px;}
+			ul.social-bookmarks li a.digg:hover     {background-position: -168px -26px;}
+			ul.social-bookmarks li a.tumblr:hover 	{background-position: -192px -26px;}
+			ul.social-bookmarks li a.posterous:hover{background-position: -216px -26px;}
+			ul.social-bookmarks li a.flickr:hover 	{background-position: -240px -26px;}
+			ul.social-bookmarks li a.yahoo:hover 	{background-position: -264px -26px;}
+			ul.social-bookmarks li a.stumble:hover 	{background-position: -288px -26px;}
+			ul.social-bookmarks li a.reddit:hover 	{background-position: -312px -26px;}
+			ul.social-bookmarks li a.linkedin:hover {background-position: -336px -26px;}
+			ul.social-bookmarks li a.friendfeed:hover {background-position: -360px -26px;}
+			ul.social-bookmarks li a.lastfm:hover 	{background-position: -384px -26px;}
+			ul.social-bookmarks li a.polyvore:hover 	{background-position: -408px -26px;}
+			ul.social-bookmarks li a.evernote:hover {background-position: -432px -26px;}
+			ul.social-bookmarks li a.backtype:hover {background-position: -456px -26px;}
+			ul.social-bookmarks li a.pinterest:hover {background-position: -480px -26px;}
+			ul.social-bookmarks li a.ffffound:hover {background-position: -504px -26px;}
+			ul.social-bookmarks li a.vimeo:hover 	{background-position: -528px -26px;}
+			ul.social-bookmarks li a.twitpic:hover 	{background-position: -552px -26px;}
+			ul.social-bookmarks li a.myspace:hover   {background-position: -576px -26px;}
+			ul.social-bookmarks li a.googleplus:hover {background-position: -600px -26px;}
+			ul.social-bookmarks li a.forrst:hover 	{background-position: -624px -26px;}
+			ul.social-bookmarks li a.dribbble:hover 	{background-position: -648px -26px;}
+			ul.social-bookmarks li a.deviant:hover 	{background-position: -672px -26px;}
+			ul.social-bookmarks li a.blogger:hover 	{background-position: -696px -26px;}
+			ul.social-bookmarks li a.youtube:hover 	{background-position: -720px -26px;}
+			ul.social-bookmarks li a.instagram:hover 	{background-position: -744px -26px;}
+			ul.social-bookmarks li a.soundcloud:hover  {background-position: -768px -26px;}
+			ul.social-bookmarks li a.reverbnation:hover  {background-position: -792px -26px;}

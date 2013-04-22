@@ -1,0 +1,115 @@
+/*-------------------------------------------------------------------------------------------*/
+/*- MEDIA QUERIES ---------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------*/
+/* layouts smaller than 600px, iPhone and mobiles */
+@media only screen and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 600px) {
+	html {-webkit-text-size-adjust: none;}
+	body{padding: 0px;}
+	#wrapper{padding: 20px;}
+	#header{padding-bottom: 0px;}
+	#left-column{float: none; width: 100%; padding: 0px; margin-bottom: 30px;}
+	#right-column{float: none; width: 100%; padding: 0px;}	
+	.double-cloumn #left-column {clear: both; float: none; width: 100%; margin: 0px 0px 30px;}
+	.double-cloumn #right-column {clear: both; float: none; width: 100%}
+		
+	
+	/*---------------------------------------*/
+	/*- HEADER ------------------------------*/
+	.logo{float: none; margin-bottom: 10px;}
+	
+	
+	/*---------------------------------------*/
+	/*- NAVIGATION --------------------------*/
+	ul#nav{padding: 0px; margin: 0px; float: none; border-top: 2px solid #f0f0f0;}
+	ul#nav li{float: none; margin: 0px; border-left: none; border-bottom: 1px dotted #ccc;}
+	ul#nav li:last-child{border-bottom: none;}
+	ul#nav li ul{display: none !important;}
+	ul#nav li a{padding: 5px 0px !important;}
+	
+	
+	
+	/*----------------------------*/
+	/*- SLIDER TEXT OVERLAY ------*/
+	.overlay h3{font-weight: 100; font-size: 25px; line-height: 30px;}
+	.overlay h3 a{display: inline-block; padding: 10px 10px 10px 10px; background: #fff; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);}
+	.overlay h3 a:hover{color: #cc3c24;}	
+	
+	/*---------------------*/
+	/*- SLIDER CONTROLS ---*/
+	.controls{width: 70px; position: absolute; top: 10px; left: 10px; z-index: 3;}
+	
+	/*---------------------*/
+	/*- SLIDER BUTTONS ----*/
+	.slider .next, .slider .previous{display: block; float: left width: 30px; height: 30px; margin: 0px 5px 0px 0px;}
+	.slider .next{float: right;}
+
+	/*---------------------*/
+	/*- SLIDER DOTS -------*/
+	.slider-dots{display: none;}
+
+	
+	/*-------------------------------------------*/
+	/*- CONTENT WIDGET  -------------------------*/
+	.content-widget li{float: none; width: 100%; margin: 0 0 30px 0;}
+
+
+	/*-------------------------------------------*/
+	/*- PRODUCTS PAGE ---------------------------*/
+	.products-shop li{float: none; width: 100%; margin: 0 0 30px 0;}
+	
+
+	/*---------------------------------------*/
+	/*- BLOGGING ----------------------------*/
+	.social{display: none;}
+
+	.comment-post{margin-left: 0px;}
+	.comment-avatar{display: none;}
+		
+	.post-content{padding: 10px;}
+	.comments{width: auto; padding: 0px 10px 10px; margin: 0px;}
+	.comment-post{margin: 0px;}
+	.threaded-comments{margin-left: 0px;}
+
+	
+	/*---------------------------------------*/
+	/*- RIGHT COLUMN ------------------------*/
+	#right-column ul.widget-list li.widget{margin: 0px 0px 30px; padding: 0px;}
+	#right-column ul.widget-list li.widget:last-child{margin-bottom: 0px;}
+	#right-column ul.widget-list li.widget li{padding: 5px 0px; margin: 0px; background: none;}
+		
+	
+	/*---------------------------------------*/
+	/*- FOOTER ------------------------------*/
+	#footer ul{padding: 0px;}	
+	#footer ul li.column{float: none; width: auto; padding: 0px; margin-bottom: 30px;}
+	#footer ul li.column:last-child{margin-bottom: 0px;}
+	#footer ul li.column li:last-child{margin: 0px; padding: 0px; border-bottom: none;}
+	
+	.footer-text{text-align: center;}
+	.footer-text p, .footer-text .obox-credit{float: none;}
+	
+	
+	/*---------------------------------------*/
+	/*- eCOMMERCE ---------------------------*/
+	.copy .col-1, .copy .col-2{width: 100%; clear: both;}
+	.copy .form-row{clear: both; float: none;}
+	.form-row-first, .form-row-last{width: 100%;}
+	#shiptobilling{width: 100%; margin-bottom: 20px;}
+	.cart-collaterals .cross-sells, .cart-collaterals .cart_totals, .cart-collaterals .shipping_calculator{float: none; width: 100%; text-align: left;}
+	
+}
+
+/*---------------*/
+/* iPad PORTRAIT */
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+	#header{padding-bottom: 0px;}
+
+	.logo{float: none; margin-bottom: 10px;}	
+	
+	ul#nav{clear: left; float: none; padding: 0px; margin: 0px; border-top: 2px solid #f0f0f0;}
+	ul#nav li{border-left: none; margin: 0px 15px 0px 0px;}
+	ul#nav li:last-child{border-right: none;}
+	ul#nav li a{padding: 5px 0px; margin: 0px;}
+}

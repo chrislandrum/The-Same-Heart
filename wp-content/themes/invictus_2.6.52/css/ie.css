@@ -1,0 +1,9 @@
+.item-caption, #thumbnails a .overlay { filter: Alpha(Opacity=0); }
+
+#thumbnails { background: none; position: fixed; bottom: 0; padding-top: 30px; }
+#thumbnails .controls { margin-top: 1px; }
+
+#sidebar { margin-left: 0 !important; margin-top: 0; }
+
+.fullwidth-content #primary { position: relative; left: 20px; }
+.fullwidth-content #sidebar { margin-left: -255px !important; margin-top: 0; }

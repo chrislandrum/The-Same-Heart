@@ -1,0 +1,541 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Theme Documentation - Kiosk</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="-1" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<base href="http://www.obox-design.com/" />
+<link href="http://www.obox-design.com/documentation-style.css" rel="stylesheet" type="text/css">
+
+<script src="http://code.jquery.com/jquery-1.4.2.min.js" language="javascript1.5" type="text/javascript"></script>
+<script src="http://www.obox-design.com/jquery.scrollTo-1.4.2-min" language="javascript1.5" type="text/javascript"></script>
+<script src="http://www.obox-design.com/jquery.localscroll-1.2.7-min" language="javascript1.5" type="text/javascript"></script>
+<script src="http://www.obox-design.com/documentation.js" language="javascript1.5" type="text/javascript"></script>
+</head>
+<body>
+<a name="top"></a>
+<div class="content-container clearfix">
+    <div class="content-container clearfix">
+        <ul class="two-col-docs clearfix">
+            <li class="documentation-menu">
+                <ul>
+                    <li id="doc-hdr-0">
+                        <h5><a href="">1. Installing</a></h5>
+                        <ul class="active">
+                            <li><a href="#1-getting-started" rel="1-getting-started" class="selected">1.1. 1- Getting Started</a></li>
+                            <li><a href="#25-install-woocommerce" rel="25-install-woocommerce" >1.2. 2-5 Install WooCommerce</a></li>
+                            <li><a href="#4-setup-post-categories" rel="4-setup-post-categories" >1.3. 4 Setup Post Categories</a></li>
+                            <li><a href="#5-setup-your-menus" rel="5-setup-your-menus" >1.4. 5 Setup your Menu(s)</a></li>
+                            <li><a href="#kiosk-add-your-product" rel="kiosk-add-your-product" >1.5. Kiosk: Add Your Product</a></li>
+                            <li><a href="#kiosk-configure-general-options" rel="kiosk-configure-general-options" >1.6. Kiosk: Configure General Options</a></li>
+                            <li><a href="#kiosk-configure-the-shop" rel="kiosk-configure-the-shop" >1.7. Kiosk: Configure the Shop</a></li>
+                            <li><a href="#kiosk-install" rel="kiosk-install" >1.8. Kiosk: Install</a></li>
+                            <li><a href="#kiosk-setup-your-home-page" rel="kiosk-setup-your-home-page" >1.9. Kiosk: Setup your Home Page</a></li>
+                        </ul>
+                    </li>
+                    <li id="doc-hdr-1">
+                        <h5><a href="">2. How To</a></h5>
+                        <ul >
+                            <li><a href="#add-a-featured-video" rel="add-a-featured-video" class="selected">2.1. Add a Featured Video</a></li>
+                            <li><a href="#how-do-i-disable-comments" rel="how-do-i-disable-comments" >2.2. How Do I Disable Comments?</a></li>
+                            <li><a href="#how-to-add-a-featured-image-to-your-post" rel="how-to-add-a-featured-image-to-your-post" >2.3. How to Add a Featured Image to your Post</a></li>
+                            <li><a href="#how-to-enable-reviews" rel="how-to-enable-reviews" >2.4. How to Enable Reviews</a></li>
+                            <li><a href="#how-to-setup-woocommerce" rel="how-to-setup-woocommerce" >2.5. How to Setup WooCommerce</a></li>
+                            <li><a href="#how-to-update-your-theme" rel="how-to-update-your-theme" >2.6. How to Update Your Theme</a></li>
+                        </ul>
+                    </li>
+                    <li id="doc-hdr-2">
+                        <h5><a href="">3. Widgets</a></h5>
+                        <ul >
+                            <li><a href="#kiosk-widget-overview" rel="kiosk-widget-overview" class="selected">3.1. Kiosk Widget Overview</a></li>
+                        </ul>
+                    </li>
+                    <li id="doc-hdr-3">
+                        <h5><a href="">4. Page Templates</a></h5>
+                        <ul >
+                            <li><a href="#adding-custom-layouts-using-page-templates-" rel="adding-custom-layouts-using-page-templates-" class="selected">4.1. Adding Custom Layouts Using Page Templates </a></li>
+                            <li><a href="#create-a-full-width-page" rel="create-a-full-width-page" >4.2. Create a Full Width Page</a></li>
+                        </ul>
+                    </li>
+                    <li id="doc-hdr-4">
+                        <h5><a href="">5. FAQ and Errors</a></h5>
+                        <ul >
+                            <li><a href="#all-my-pages-are-cluttered-up-next-to-the-logo" rel="all-my-pages-are-cluttered-up-next-to-the-logo" class="selected">5.1. All my pages are cluttered up next to the logo</a></li>
+                            <li><a href="#how-to-update-your-theme" rel="how-to-update-your-theme" >5.2. How to Update Your Theme</a></li>
+                            <li><a href="#i-get-a-file_get_contents-warning-in-the-update-panel" rel="i-get-a-file_get_contents-warning-in-the-update-panel" >5.3. I get a "file_get_contents();" Warning in the update panel</a></li>
+                            <li><a href="#images-are-not-scalingresizingcropping-correctly" rel="images-are-not-scalingresizingcropping-correctly" >5.4. Images are not scaling/resizing/cropping correctly</a></li>
+                            <li><a href="#images-show-up-lowres-or-in-poor-quality" rel="images-show-up-lowres-or-in-poor-quality" >5.5. Images show up low-res or in poor quality</a></li>
+                            <li><a href="#my-gallery-images-are-not-displaying" rel="my-gallery-images-are-not-displaying" >5.6. My Gallery Images are not Displaying</a></li>
+                            <li><a href="#theme-options-error--parse-error-syntax-error-unexpected-t_string" rel="theme-options-error--parse-error-syntax-error-unexpected-t_string" >5.7. Theme Options Error - 'Parse error: syntax error, unexpected T_STRING'</a></li>
+                            <li><a href="#theme-options-error--warning-cannot-modify-header-information" rel="theme-options-error--warning-cannot-modify-header-information" >5.8. Theme Options Error - 'Warning: Cannot modify header information'</a></li>
+                            <li><a href="#where-are-the-shortcodes" rel="where-are-the-shortcodes" >5.9. Where are the Shortcodes?</a></li>
+                            <li><a href="#where-do-i-find-my-themeforest-license-key" rel="where-do-i-find-my-themeforest-license-key" >5.10. Where do I find my Themeforest license key?</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="menu-block key">
+                    <h4>Color Key:</h4>
+                    <p>Sections are defined by color for easier document scanning.</p>
+                    <ul>
+                        <li class="setting-area">Setting Step</li>
+                        <li class="widget-option">Widget Item</li>
+                        <li class="setting-option">Setting Element</li>
+                    </ul>
+                </div>
+                <div class="menu-block">
+                    <h4>Quick Links:</h4>
+                    <p>Need more help? Consult our support crew or get some hands-on help from our modifiers:</p>
+                    <ul>
+                        <li><a href="http://www.obox-design.com/forum_list.cfm">Support Forums</a></li>
+                        <li><a href="http://www.obox-design.com/approved_modifiers.cfm">Approved Modifiers</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="column">
+                <div class="documentation-header">
+                    <ul class="documentation-crumbs clearfix" id="bread-crumbs">
+                        <li><a href="http://www.obox-design.com/documentation.cfm">Documentation</a> <span>&rarr;</span></li>
+                        <li><a href="http://www.obox-design.com/documentation.cfm?platform=wordpress">WordPress</a> <span>&rarr;</span></li>
+                        <li><a href="http://www.obox-design.com/documentation_item.cfm?productid=1560">Kiosk</a></li>
+                    </ul>
+                    <div class="page-title">
+                        <h1>Kiosk</h1>
+                    </div>
+                </div>
+                <div class="post">
+                    <h3><a name="1-getting-started">1- Getting Started</a></h3>
+                    <div class="tool-tip"><strong>IMPORTANT:</strong> Don't use sub-folders as root directories of your website as it can cause some scripts  and features of WordPress to fail. If you must install to a sub-directory for technical reasons,  you must use <a href="http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory" target="_blank">this procedure</a>.<br />
+                        CORRECT: www.<strong>website.com</strong> -OR- www.<strong>your.website.com</strong><br />
+                        INCORRECT: www.<strong>website.com/wordpress/</strong></div>
+                    <p>WordPress is a robust, completely free self-publishing platform. This  guide will take you through basic setup and configuration of WordPress  on your own web host (also called a "wordpress.org" install). Please  note, if you have a wordpress.com account, you will only be able to  install and use the Obox Themes available from the approved  wordpress.com theme directory and should refer to the wordpress.com  documentation for help and support.</p>
+                    <p><em><strong>Note for Existing Installations</strong></em></p>
+                    <p>If you are installing your theme to an existing WordPress installation that already has content, we strongly recommend you deactivate all plugins prior to activating the theme. Do not reactivate them until you are finished configuring the theme and widgets. This assures you will not run into conflicts or difficulties caused by an incompatible plugin while setting up your theme.</p>
+                    <p>Parts of your content may no longer appear or look the same once you have switched themes. If you were using shortcodes, styles or  custom fields specifc to your previous theme, you will need to adjust your content to be compatible with the theme. Please refer to your previous theme's documentation or support for details or questions on what you might need to change.</p>
+                    <h4><strong>&nbsp;Install WordPresss</strong><a name="installing-wordpress"></a></h4>
+                    <ol>
+                        <li>Check out <a href="http://www.instantfundas.com/2011/12/quick-guide-to-secure-wordpress-setup.html" target="_blank">these recommendations </a>for a Secure WordPress installation, and also go through <a href="http://codex.wordpress.org/Installing_WordPress" target="_blank">WordPress' Getting Started guide.</a></li>
+                        <li><a href="http://codex.wordpress.org/Installing_WordPress" target="_blank">Install WordPress</a> by uploading the contents of the Wordpress download folder to your website root.  It should look something like this when finished:
+                            <blockquote>
+                                <p><img src="../images/Documentation/large/03032012195244_wordpress_uploaded.jpg" alt="" width="416" height="181" /></p>
+                            </blockquote>
+                        </li>
+                        <li>Log in to your WordPress admin panel. You will be greeted with the WordPress Welcome page, which includes a tour and some valuable links. If you are new to WordPress, please take some time to go through this information. or visit <a href="http://codex.wordpress.org/First_Steps_With_WordPress" target="_blank">First Steps With WordPress</a>.</li>
+                        <li>Go to <em>Settings &gt; Permalinks</em>, select <strong>Post Name</strong> and click <em>Save.</em> </li>
+                        <li><em>For existing WordPress installations: </em>Go to <em>Settings &gt; Reading</em> and ensure <strong>Latest Posts</strong> is selected.</li>
+                    </ol>
+                    <h3><a name="25-install-woocommerce">2-5 Install WooCommerce</a></h3>
+                    <p>This eCommerce theme uses the popular WooCommerce plugin to provide shop functionality and inventory management. The eCommerce theme will not function without it.</p>
+                    <h4>Automatic installation</h4>
+                    <p>Automatic installation is the easiest option as WordPress handles the  file transfers itself and you don&rsquo;t even need to leave your web  browser.</p>
+                    <ol>
+                        <li>1. Login to your  WordPress admin panel, navigate to the Plugins menu and click<strong> Add New</strong>.</li>
+                        <li>2. In the search field type &ldquo;WooCommerce&rdquo; and click <strong>Search Plugins</strong>.</li>
+                        <li>3. Once  you&rsquo;ve found the plugin you can view details about it such as the the  point release, rating and description. Most importantly of course, you  can install it by simply clicking <strong>Install Now</strong>. After clicking that link  you will be asked if you&rsquo;re sure you want to install the plugin. Click <strong> yes</strong> and WordPress will automatically complete the installation.</li>
+                    </ol>
+                    <div class="tool-tip">
+                        <p>It&rsquo;s possible at this stage that you will be taken to a page  requesting the FTP details of your webserver. This will be the case if  you&rsquo;ve not installed a plugin on this particular installation of  WordPress before. If so, simply fill in your details to complete the  installation.</p>
+                    </div>
+                    <h4>Manual installation</h4>
+                    <p>The manual installation involves downloading the plugin and uploading it to your webserver via your favourite FTP application.</p>
+                    <ol>
+                        <li><a title="Download WooCommerce" href="http://www.woothemes.com/woocommerce/" target="_blank">Download the plugin</a>&nbsp;to your computer and unzip it</li>
+                        <li>Using an FTP program, or your hosting control panel, upload the  unzipped plugin folder to your WordPress installation&rsquo;s  wp-content/plugins/ directory.</li>
+                        <li>Activate the plugin from the Plugins menu within the WordPress admin.</li>
+                    </ol>
+                    <div class="tool-tip">
+                        <p><strong>Important Info</strong> Visit the<a href="http://wcdocs.woothemes.com/user-guide/getting-started/woocommerce-installation/" target="_blank"> WooCommerce Docs website</a> for more information.</p>
+                    </div>
+                    <h3><a name="4-setup-post-categories">4 Setup Post Categories</a></h3>
+                    <p>Before we can <em>really</em> get started with your theme, you need add some content. Categories are used to create a logical structure for your content and are used as filters in many widgets and plugins.</p>
+                    <h4>Setup Categories</h4>
+                    <ol>
+                        <li>Click on <strong>Posts &rarr; Categories</strong>.</li>
+                        <li>Add a new category to serve as your main Blog or News page by typing the category name, then click <span class="setting">Add New Category</span>.</li>
+                        <li>Repeat to add a category named <em>Featured</em>. You can use the Featured category to hand-pick posts from across multiple categories to display in your Home page slider or other widgets. </li>
+                        <li>Add any additional Blog or News categories to sort your posts into logical topics. This is not required, but is helpful for Search Engine Optimization. Categorizing posts also allows you to display separate blog feed pages for each category, if desired. View our Theme Demo for an example of how categories can be used.</li>
+                    </ol>
+                    <p><img src="../images/Documentation/large/03032012203521_addcat.jpg" alt="add category" /></p>
+                    <p><img src="../images/Documentation/large/03032012203616_parentcat.jpg" alt="Choosing Parent Categories" /></p>
+                    <div class="tool-tip">
+                        <p><strong>Useful information</strong></p>
+                        <p>Learn more about Categories <a href="http://codex.wordpress.org/Manage_Categories_SubPanel" target="_new">here</a>.</p>
+                        <p><strong>View the How To section for details on creating standard Posts, such as Adding Featured Images or Videos.</strong></p>
+                    </div>
+                    <h3><a name="5-setup-your-menus">5 Setup your Menu(s)</a></h3>
+                    <p>Your theme may attempt to display your navigation menu automatically, but it may show items you don't wish to appear, or put them in an order you don't like. You may customize your menu using the following steps:</p>
+                    <ol>
+                        <li>Go to <strong>Appearance &rarr; Menus</strong>. </li>
+                        <li>Click the plus (+) tab to add a new menu, give it a name and click <span class="setting">Create Menu</span>.</li>
+                        <p><img src="http://cdn.obox-design.com/documentation/Obox-mobile-menu-1.jpg" alt="" /></p>
+                        <p class="tool-tip">If you have an existing WordPress install, remove any links that are no longer relevant, such as a Blog page from an old page template.</p>
+                        <li>Select your new menu from the <strong>Primary Navigation</strong> drop-down menu on the left side.</li>
+                        <li>Create a<em> Home</em> link by typing  your URL into the <strong>Custom Link</strong> field on the left side and adding "Home" to the label field (or whatever you wish to call it.). Click <span class="setting">Add to Menu </span>to add it to the menu panel.</li>
+                        <p><img src="../images/Documentation/large/03032012214351_addhomelink.png" alt="" width="322" height="364" /></p>
+                        <li>Check the pages you wish to add under the <strong>Pages</strong> box on the left and click <em>Add to Menu</em>. If you have a lot of Pages, you may need to click the <em>View All </em>link.</li>
+                        <li>Scroll to the bottom and check your blog category in the <strong>Category</strong> box to create your blog page. This will show all posts in chronological order using the full blog/category layout. You may also choose to add individual categories instead, and use your Archives page exclusively for showing all posts.</li>
+                        <li>Arrange your menu by dragging and dropping the link bars in your menu panel. <em><a href="http://codex.wordpress.org/Appearance_Menus_Screen" target="_blank">Learn more about the Appearance Menus page here.</a></em></li>
+                        <li>Repeat these steps to add a menu for your foote. if required by the theme (you will see a Secondaryr Navigation menu on the upper left side)r. Typically this contains an alternative set of links, or a simplified menu of your top-level links only (do not add sub-pages). Once created, select this menu from the <strong>Secondary Navigation </strong> menu drop-down and click <em>Save.</em></li>
+                    </ol>
+                    <ol>
+                        <p><strong>That's it! View your page to see your results and fine-tune as needed. </strong></p>
+                    </ol>
+                    <h3><a name="kiosk-add-your-product">Kiosk: Add Your Product</a></h3>
+                    <div class="toolip">Kiosk is currently designed to promote a single product, such as an ebook, charity, event, new release, etc.&nbsp; Therefore, it will display the last featured product added on the home page..<strong> Kiosk is not a full shop theme at this time.</strong></div>
+                    <ol>
+                        <li>Click on <strong>Products &gt; Add New.</strong></li>
+                        <li>Enter a Product title and short description. </li>
+                        <li>Configure your product options below the post editor, such as price and so on.</li>
+                        <li>Check the <span class="setting">Featured Product</span> box. You may also click the star icon in the product index view to feature a product. Featuring products allows them to appear in the widgets.</li>
+                        <li>Click <span class="setting">Set Featured Image</span> to upload your featured image if you are using WordPress Featured Images, or click Browse in the theme options panel to upload an Obox Main Image. You may optionally add a video embed code to use a video as the main image/presentation.&nbsp; </li>
+                    </ol>
+                    <h4>Adding Additional Images/Creating Main Page Slides</h4>
+                    <p>If you have additional product images you would like to display in the product slider, click on the <span class="setting">Upload/Insert</span> button above the post editor. When finished, simply close the media manager (you do not need to insert them)</p>
+                    <p><img src="../images/Documentation/large/20072012225003_upload-insert.png" alt="" width="474" height="94" /></p>
+                    <h3><a name="kiosk-configure-general-options">Kiosk: Configure General Options</a></h3>
+                    <p>Start by clicking&nbsp; on <em>Theme Options</em> in the left-hand admin menu and choose <strong>General</strong></p>
+                    <p>All Obox Themes come with some General options for setting a custom logo and favicon, and other customization options like colors, meta tags and so on. Here we will explain each option:</p>
+                    <h4>Custom Logo</h4>
+                    <p><img src="../images/Documentation/large/03032012200901_customlogo.jpg" alt="Custom Logo" width="623" height="416" /></p>
+                    <p>This option allows you to upload a Custom Logo to replace the default theme logo or banner. The dimensions are purely up to you, however it should not exceed<strong> 320</strong> pixels wide, or <strong>300</strong> pixels tall (for best compatibility with mobile devices). Click on <em>Browse</em> to upload an image file from your hard-drive, or enter the URL of your image file if it is hosted elsewhere.</p>
+                    <p>You can upload as many logos as you like and then simply switch to the one you like best by clicking on the thumbnail. WordPress accepts .jpg, .png and .gif.</p>
+                    <h4>Custom Favicon</h4>
+                    <p><img src="../images/Documentation/large/03032012201151_favicon.jpg" alt="favicon" /></p>
+                    <p>This option allows you to upload a favicon, which is the tiny icon displayed in the browser address bar when visitors view your site. The dimensions should be <strong>16 x 16 pixels</strong>. Click on <em>Browse</em> to upload an image file from your hard-drive, or enter the URL of your image file if it is hosted elsewhere.</p>
+                    <p>You can upload as many favicons as you like and then simply switch to the one you like best by clicking on the thumbnail. For best results, your favicon should be a .gif. You should not use a .jpg as it will probably not display.</p>
+                    <h4>Product Featured Image</h4>
+                    <p><img src="http://i1200.photobucket.com/albums/bb330/vailjoy/product_featured.png" alt="colors" width="756" height="133" /></p>
+                    <p>This option determines how your product will appear on the main page. Slider displays your featured image, followed by any additional images uploaded to the product gallery via the post editor using the default WordPress image uploader. The thumbnail option will display all images in a grid.</p>
+                    <h4>Thumbnail Options<a id="thumbnail_options" name="thumbnail_options"></a></h4>
+                    <p><img src="../images/Documentation/large/03032012201151_thumbnailoptions.jpg" alt="Thumbnail Options" /></p>
+                    <p>The Thumbnail Settings menu allows you to designate which option you want to use to manage the dynamic image features of the theme for posts, products and pages.<strong>&nbsp;</strong></p>
+                    <p>The <strong>Obox Main Image </strong>option uses our custom OCMX featured image function to generate beautifully resized images for display in all dynamic image areas such as widgets, sliders, portfolios and post lists. This option also allows you to take advantage of the OCMX image adjustment and effects. If this is a new installation or you are new to WordPress, keep this option selected for best results.</p>
+                    <p>The <strong>WordPress Thumbnail Feature</strong> tells the theme to use the inherent WordPress image resizing capabilities via the Set Featured Image option in your post editor. This option is best if you have an existing WordPress installation and have existing content using the WordPress featured images.</p>
+                    <p>The following figure shows the relationship between the option you choose and how the featured image must be uploaded in the post editor:</p>
+                    <p><img src="../images/Documentation/large/03032012201152_thumbrel.jpg" alt="thumbnail option vs upload method" /></p>
+                    <p>For those of you who are switching to Kiosk from a theme that had a special custom image field, the <strong>Custom Image Meta</strong> option allows you to enter the field name into the <strong>Custom Meta </strong>field to attempt to pull in your existing featured images. The full image path must be set in your field for this option to work, ie http://www.yoursite.com/wp-content/uploads/etc/image.jpg.</p>
+                    <h4>Custom RSS URL</h4>
+                    <p>Enter the url to a custom RSS feed URL such as Feedburner. If you are not using a special RSS manager, you can leave this blank</p>
+                    <h4>Custom Footer Text &amp; Hide Obox Logo</h4>
+                    <p><img src="../images/Documentation/large/03032012203011_customfooter.jpg" alt="" width="730" height="237" /></p>
+                    <p>The <strong>Custom Footer Text</strong> and <strong>Hide Obox Logo</strong> section give you some control over the copyright area of the footer. All of our themes come with an  Obox Logo at the bottom right of the footer. To switch this off, simply uncheck the box (although you get extra awesome points for leaving it on!) Replace our default copyright text with your own. For example: "Copyright &copy; YourSiteName". Don't put code in this box, it won't work!</p>
+                    <h4>Site Analytics</h4>
+                    <p>If you would like a quick and painless way to implement Google Analytics, paste your preferred tracking code into this   text area. Your code will then be insterted into the footer of the theme, which is best for performance reasons. If you would like your code in header, then you   will need to insert it into the Theme Header under <strong>Appearence &rarr; Editor</strong>. <em><a href="http://support.google.com/analytics/bin/answer.py?hl=en&amp;answer=1086338&amp;topic=1726910&amp;ctx=topic" target="_blank">Learn more about Google Analytics here.</a></em></p>
+                    <p><strong>Save your options</strong> by clicking the <em>Save Options </em>button in the top-right or bottom-right corner.</p>
+                    <h3><a name="kiosk-configure-the-shop">Kiosk: Configure the Shop</a></h3>
+                    <ol>
+                        <li>Go to <strong>WooCommerce &rarr; Settings</strong></li>
+                        <li>Uncheck "Enable WooCommerce CSS styles" near the bottom under Styles and Scripts to get the theme's styling. You may leave it on and configure the colors to suit your needs, however if you notice any abnormalities with your shop, uncheck it.</li>
+                        <li>Click on the Catalog tab and check "Redirect to cart after adding a product to the cart (on single product pages)" for a smoother user experience.</li>
+                        <li>At the bottom, enter <strong>380 </strong>for width and ensure "hard crop" is<strong> unchecked </strong>for the <strong>single product image</strong>. Upload  product </li>
+                    </ol>
+                    <h6>EXAMPLE:</h6>
+                    <p><img src="http://cl.ly/G4Jt/Screen%20shot%202012-04-23%20at%205.15.19%20PM.png" alt="" width="562" height="224" /></p>
+                    <div class="tool-tip">
+                        <p><strong>Note:</strong></p>
+                        <p>If you have already uploaded and set images in products prior to doing this step, you will need to regenerate your thumbnails. We recommend using a plugin called <a href="http://wordpress.org/extend/plugins/regenerate-thumbnails/">Regenerate Thumbnails</a>.</p>
+                    </div>
+                    <p>For more information on how to use Woocommerce please consult their  user guide. It goes into great detail in terms of both setup and  maitaining your products, shipping, stock, tax and much more.</p>
+                    <p>You can view the documentation here: <a href="http://www.woothemes.com/woocommerce-codex/woocommerce-user-guide/">Woocommerce User Guide</a></p>
+                    <h3><a name="kiosk-install">Kiosk: Install</a></h3>
+                    <div class="tool-tip">
+                        <p><strong>IMPORTANT: <em>If you downloaded from Themeforest:</em></strong> <em>Unzip</em> the file downloaded from Themeforest <em>before</em> uploading it anywhere. Inside are some extras and the theme package, called <em>kiosk</em>_single.zip.</p>
+                    </div>
+                    <h4>Installing via FTP</h4>
+                    <ol>
+                        <li>Unzip the <strong>kiosk_single.zip</strong> (or handmade-ecommerce_child.zip) to find the <strong>&nbsp;</strong> theme folder. </li>
+                        <li>Connect to your web space using an FTP client and upload the theme folder to the <em>wp-content/themes/</em> directory.</li>
+                        <li>Log in to your WordPress admin panel and go to <em> Appearance &gt; Themes</em></li>
+                        <li>Locate the theme thumbnail and click the <strong>Activate </strong>link.</li>
+                    </ol>
+                    <h4>Installing via WordPress</h4>
+                    <p><strong>Note:</strong> If you are not running the latest version of WordPress, some menu options and screenshots may vary.</p>
+                    <ol>
+                        <li>Log in to your WordPress admin panel and go to <em>Appearance &gt; Themes</em></li>
+                        <li>Click the <em>Install Themes </em> tab at the top. </li>
+                        <li>Click the <em>Upload</em> link
+                            <p><img src="../images/Documentation/large/03032012200437_install.jpg" alt="install" /></p>
+                        </li>
+                        <li>Click the <em>Browse</em> button and navigate to the location of your <strong>handmade</strong>_single.zip file. Select the file and click Open.</li>
+                        <li>Click <em>Install Now </em>to begin the installation. </li>
+                        <li>Wait for the success message, then click <em>Activate.</em></li>
+                    </ol>
+                    <h4><strong>Set your folder permissions</strong><a name="folder-permissions"></a></h4>
+                    <ol>
+                        <li>Connect to your web server via FTP or with your web host control panel.</li>
+                        <li>Browse to wp-content &gt; themes &gt; kiosk and open the <strong> functions</strong> folder.</li>
+                        <li>Right-click the <strong>cache</strong> folder and choose the CHMOD or Set Permissions option (the option name will vary depending on your software)</li>
+                        <li>Set the permissions to 777 (full rights). </li>
+                    </ol>
+                    <h6>Example:</h6>
+                    <p><img src="http://cdn.obox-design.com/documentation/cache-folder.jpg" alt="" /> <img src="http://cdn.obox-design.com/documentation/cache-permissions.jpg" alt="" /></p>
+                    <div class="tool-tip">
+                        <p>If you are installing your theme via an FTP Client, please make sure that the path is <em>wp-content/themes/kiosk/</em> and <span style="text-decoration: underline;">not</span> <em>wp-content/themes/</em><strong><em>kiosk</em></strong><em>_single/<strong>kiosk (not inside a subfolder of the themes directory) </strong></em>as this will affect the ajax and commenting of your theme.</p>
+                    </div>
+                    <h4>Download and Activate WooCommerce</h4>
+                    <p>This theme uses WooCommerce for displaying and managing your products and shopping cart. This free plugin can be downloaded from Plugins &gt; Add New. Search for "WooCommerce" and install&nbsp; <strong>WooCommerce - excelling eCommerce<br />
+                        </strong></p>
+                    <h3><a name="kiosk-setup-your-home-page">Kiosk: Setup your Home Page</a></h3>
+                    <p>The Kiosk home page is desinged to use widgets for the home page layout. By using widgets you will be able to determine exactly how much content, and the type of content, that is displayed.</p>
+                    <p><strong>Under the Widgets Section you will have see the following panels:</strong></p>
+                    <ul>
+                        <li>Home Page</li>
+                        <li>Shop Sidebar</li>
+                        <li>Blog Sidebar</li>
+                        <li>Footer</li>
+                    </ul>
+                    <h5>Home Page</h5>
+                    <p>The Home Page Widget area can contain two widget types: <strong>(Obox) Slider Widget</strong> and <strong>(Obox) Content Widget</strong>. Read below for more details on each widget.</p>
+                    <h6>(Obox) Slider Widget</h6>
+                    <p>Display various kinds of content in a slider layout on your home page. Each time you select an item from a dropdown, press "Save" to load the next set of settings.</p>
+                    <h6>(Obox) Content Widget</h6>
+                    <p>Display various kinds of content in a multi-column layout on your home page. Each time you select an item from a dropdown, press "Save" to load the next set of settings.</p>
+                    <p class="note">You can place as many of these widgets on your home page as possible, though be careful of placing too many as this may affect the load time of your site.</p>
+                    <h5>Shop Sidebar</h5>
+                    <p>This block is designed to display WooCommerce (green) and regular widgets (grey) such as <strong>Text</strong>, <strong>Latest Posts</strong> and <strong>Comments</strong>.</p>
+                    <p>Any widget that you would usually place in the right column of your theme can be placed in this area, so it really is up to you.</p>
+                    <h5>Blog Sidebar</h5>
+                    <p>This block is designed to display Obox (purple) and regular widgets (grey) such as <strong>Text</strong>, <strong>Latest Posts</strong> and <strong>Comments</strong>.</p>
+                    <p>Any widget that you would usually place in the right column of your theme can be placed in this area, so it really is up to you.</p>
+                    <h5>Footer</h5>
+                    <p>This block is designed to display regular widgets (grey) such as <strong>Text</strong>, <strong>Latest Posts</strong> and <strong>Comments</strong>.</p>
+                    <h3><a name="add-a-featured-video">Add a Featured Video</a></h3>
+                    <p>All Obox themes have the ability to display videos from YouTube, Vimeo or any source that supports embeds, which will be resized specifically for the templates and widgets.Videos can be added using the oEmbed link, or the video embed code field. Using the embed code field offers more control in terms of how the video looks when pulled in.</p>
+                    <p>To add a video to a post using the theme options, you must use an external video player (like YouTube or Vimeo, etc.). If hosting your own videos, you may use the WordPress media manager to upload Flash videos. Other video formats require a custom video player and modification to the theme, which is outside the scope of this documentation.</p>
+                    <div class="toolip">Special note for Ambition: Using the oEmbed method is recommended, as this will both size your videos optimally and allow for display of Likes and Views from your video host.</div>
+                    <h4>Using Embed Code</h4>
+                    <p>Grab the embed code from the video's page and paste it into the Embed Code field.</p>
+                    <ul>
+                        <li><strong>YouTube:</strong> Click Share, then click Embed and copy the code that appears.</li>
+                        <li><strong>Vimeo:</strong> Click the  or Embed link on the video overlay and copy the code that appears. </li>
+                    </ul>
+                    <p><img src="../images/Documentation/large/03032012220312_videoembed.png" alt="add video code" /></p>
+                    <div class="tool-tip">
+                        <p>For Tumblog themes, you must paste the embed code into the Tumblog Custom Settings panel, not the Waves Options.</p>
+                        <h4>Using <a rel="nofollow" href="http://oembed.com/" target="_blank">oEmbed</a> (URL)</h4>
+                        <p>If your video service supports the oEmbed code, then paste the <strong>URL</strong> of your video into the Video Link field. <a rel="nofollow" href="http://codex.wordpress.org/Embeds" target="_blank">Here is a list</a> of sites that are supported by the oEmbed function.</p>
+                    </div>
+                    <p><img src="http://cdn.obox-design.com/documentation/oEmbed.png" alt="" width="706" height="109" /></p>
+                    <h4>For themes with Self-Hosted video support:</h4>
+                    <p>You will need to encode your video in multiple formats to meet the specifications of all major browsers. You must upload a video in each format to both self-hosted video fields in the theme options panel on the post-editor. For Flash fallback, paste your flash embed code into the embed field. Note that jPlayer is an HTML5 player and therefore several features are not supported by older versions of Internet Explorer.</p>
+                    <p>Learn more about this <a href="http://blog.zencoder.com/2010/10/06/how-many-formats-do-i-need-for-html5-video/" target="_blank">here</a>.</p>
+                    <h3><a name="how-do-i-disable-comments">How Do I Disable Comments?</a></h3>
+                    <p>Check out the official documentation for working with comments in WordPress <a href="http://codex.wordpress.org/Comment_Moderation" target="_blank">here.</a></p>
+                    <p>To turn off comments completely, you will need to disable commenting under <strong>Settings &gt; Discussion</strong>.</p>
+                    <p>To turn off comments for single posts or pages, click on <span class="&rdquo;setting&rdquo;">Screen Options</span> in the upper-right and ensure the Discussion box is checked. Scroll to the bottom of the page and uncheck <em>Allow Comments</em> and<em> Allow Trackbacks</em>.</p>
+                    <p>There are a few 3rd Party Plugins you may install to manage disabling of comments on all pages, all posts or specific post types. You can find them by going to Plugins &gt; Add New and search for <strong>Disable Comment</strong>s.</p>
+                    <h3><a name="how-to-add-a-featured-image-to-your-post">How to Add a Featured Image to your Post</a></h3>
+                    <p>Featured images appear in your theme's slider, widgets, blog and post pages. They are also used to represent portfolio posts for themes wth a portfolio.</p>
+                    <p>Obox themes come with a special script for handling the cropping or resizing of your featured images, and may present more desireable/nicer effects than the default WordPress method. In the majority of our themes, using this option will set the WordPress featured image automatically, allowing for backwards and future compatibility with other themes or setups. In this case, it is recommended you set your theme to use the Obox Main Image method, and use the Image upload field exclusively.</p>
+                    <p>To verify your chosen thumbnail method, go to Theme Options &gt; General and check the Thumbnail Settings area. Note that older themes do not have this option and will use the Obox Main image automatically if it exists.</p>
+                    <p><img src="../images/Documentation/large/03032012201151_thumbnailoptions.jpg" alt="Thumbnail Options" /></p>
+                    <p>The Thumbnail Settings menu allows you to designate which option you   want to use to manage the dynamic image features of the theme.</p>
+                    <p>The <strong>Obox Main Image </strong>option uses our custom OCMX   featured image function to generate beautifully resized images for   display in all dynamic image areas such as widgets, sliders, portfolios   and post lists. This option also allows you to take advantage of the   OCMX image adjustment and effects. If this is a new installation or you   are new to WordPress, keep this option selected for best results.</p>
+                    <p>The <span class="setting">WordPress Thumbnail Feature</span> tells the theme to   use the inherent WordPress image resizing capabilities via the Set   Featured Image option in your post editor. This option is best if you   have an existing WordPress installation and have existing content using   the WordPress featured images.</p>
+                    <p>The following figure shows the relationship between the option you choose and how the featured image must be uploaded in the post editor:</p>
+                    <p><img src="../images/Documentation/large/03032012201152_thumbrel.jpg" alt="thumbnail option vs upload method" /></p>
+                    <h4>Uploading a new Image</h4>
+                    <p>Underneath the "Theme Options" (eg. Platform Options) panel there is a <span class="setting">Main Image</span> field. Click "browse" to select the image from your computer. Once you've selected the appropriate image, click Update/Publish Post.</p>
+                    <p><img src="http://cdn.obox-design.com/documentation/main-image.png" alt="" /></p>
+                    <p>By uploading an image via this field you are also opening up the possibility of using image filters.</p>
+                    <p><strong>The available <span class="setting">Filters</span> are:</strong></p>
+                    <ul>
+                        <li>Grey Scale</li>
+                        <li>Negative</li>
+                        <li>Brightness</li>
+                        <li>Contrast</li>
+                        <li>Gaussian Blur</li>
+                        <li>Colorize</li>
+                    </ul>
+                    <p>Simply click on the filter you would like to use <em>before</em> you upload the image. You can test out each <span class="setting">Filter</span> by uploading the image with the different setting selected each time.</p>
+                    <h4>Using an image from your WordPress Media Library</h4>
+                    <p>If you want to use an image which is in your WordPress media library then take the following steps:</p>
+                    <ol>
+                        <li>Click the <span class="setting">Set Featured image</span> link on the right side.</li>
+                        <li>Click the <strong>Media Library</strong> link at the top.</li>
+                        <li>Click <strong>Show</strong> for the image you want to use</li>
+                        <li>Click <strong>File URL </strong>and copy the URL in the Image Path field</li>
+                        <li>Click the<strong> Use as Featured Image</strong> link and close the window</li>
+                        <li>Plaste the <strong>Image URL</strong> into the <strong><span class="setting">Image Path</span></strong> field of the post's theme options box. If you are on a WordPress Multisite setup, you may have to place the "relative path" inside the box.( ie. Leave out the http://sitename.com/ part of the url).</li>
+                    </ol>
+                    <p class="note">Please make sure that permission on the <em>/wordpress/wp-content/themename/functions/cache</em> folder is set to 777 <em>(eg. /press/functions/cache). See the FAQ for more info.<br />
+                        </em></p>
+                    <h3><a name="how-to-enable-reviews">How to Enable Reviews</a></h3>
+                    <p>Reviews allow your visitors to comment on or review your products and are a great way to generate interest and sales while gathering valuable feedback for improving your products.&nbsp;</p>
+                    <p>Enable reviews in the Product post by checking the <span class="option">Allow Reviews</span> checkbox&nbsp; at the bottom of the  page.</p>
+                    <p><img title="Allow Reviews" src="../images/Documentation/small/17072012155056_allowreviews.png" alt="Allow Reviews" width="278" height="115" /></p>
+                    <p>If you don't see this box, click "Screen Options" in the top-right and ensure<strong> Review</strong>s and <strong>Product Reviews </strong>are both checked.</p>
+                    <p><img title="Screen Options" src="../images/Documentation/small/17072012155054_screenoptions.png" alt="Screen Options" width="278" height="129" /></p>
+                    <h3><a name="how-to-setup-woocommerce">How to Setup WooCommerce</a></h3>
+                    <ol>
+                        <li>Go to <strong>WooCommerce &rarr; Settings</strong></li>
+                        <li>Uncheck <span class="setting">Enable WooCommerce CSS styles</span> near the bottom under Styles and Scripts</li>
+                        <li>Click on the Catalog tab and enter your preferred dimensions for the <span class="setting">Catalog and Thumbnails</span> under Image Options</li>
+                        <li>Enter the minimum main image width for the <strong>single product image</strong>:</li>
+                    </ol>
+                    <div class="tool-tip">
+                        <p><strong>Clean Cut eCommerce:</strong> Enter 400 and leave hard crop unchecked. This ensures your images scale at least to the theme's set size. Upload product images that are at least 400 pixels wide.</p>
+                        <p><strong>Handmade eCommerce:</strong> Enter 600 for width and 2000 for height and leave hard crop unchecked.</p>
+                        <p><strong>Gigawatt eCommerce:</strong> Enter 960 for width and 2000 for height and leave hard crop unchecked.</p>
+                        <p><strong>MagPress eCommerce: </strong>Enter 720 for width and 2000 for height and leave hard crop unchecked.</p>
+                    </div>
+                    <h6>EXAMPLE:</h6>
+                    <p><img src="http://cl.ly/G4Jt/Screen%20shot%202012-04-23%20at%205.15.19%20PM.png" alt="" width="562" height="224" /></p>
+                    <div class="tool-tip">
+                        <p><strong>Note:</strong></p>
+                        <p>If you have already uploaded and set images in products prior to doing this step, you will need to regenerate your thumbnails. We recommend using a plugin called <a href="http://wordpress.org/extend/plugins/regenerate-thumbnails/">Regenerate Thumbnails</a>.</p>
+                    </div>
+                    <p>For more information on how to use Woocommerce please consult their user guide. It goes into great detail in terms of both setup and maitaining your products, shipping, stock, tax and much more.</p>
+                    <p>You can view the documentation here: <a href="http://www.woothemes.com/woocommerce-codex/woocommerce-user-guide/">Woocommerce User Guide</a></p>
+                    <h3><a name="how-to-update-your-theme">How to Update Your Theme</a></h3>
+                    <p>All OCMX 2.0+ themes come with an auto-update feature which allows you to download and install updates with the click of a button. If you have modified your theme, you may still review each update and install them manually by checking your theme's Hotfix Page, linked from the theme's forum sidebar.</p>
+                    <div class="tooltip">
+                        <p><strong>Special Note for eCommerce Themes:</strong></p>
+                        <p>Always update your base theme first!&nbsp; The most fool-proof way is to temporarily activate your base theme, then follow the below instructions to update. When complete, re-activate your eCommerce theme and repeat these steps using Theme Options &raquo; <span class="setting">Update Child Theme</span>.</p>
+                    </div>
+                    <h4>To update your theme using the updater:</h4>
+                    <ol>
+                        <li>Backup your custom.css and any other modified theme files.</li>
+                        <li>Go to Theme Options &raquo; <span class="setting">Update</span> and check your installed theme version in the right corner.</li>
+                        <li>Click <span class="setting">Install</span> next to each update you need to get up-to-date.</li>
+                        <h6>For example:</h6>
+                        <p>&nbsp;if your version is 1.2.0 and there is 1.2.1 and 1.2.2 available, click install for 1.2.1, then proceed with 1.2.2 and so on.</p>
+                        <img src="../images/Documentation/large/20072012204106_howtoupdate.png" alt="" width="739" height="292" />
+                        <li>Wait for the update to finish before proceeding to other updates.</li>
+                    </ol>
+                    <div class="tooltip">If you had previously modified theme files that were overwritten by an  update, you must move the changes into the new file. Do not overwrite or  restore updated theme files with older versions, or the theme may  break!</div>
+                    <h4>Update Manually:</h4>
+                    <ol>
+                        <li>Go to Theme Options &gt; Update to check your current theme version in the right corner.</li>
+                        <li>Visit your theme's Hotfix page (linked from the theme forum) and download each hotfix you need.</li>
+                        <li>Unzip each file into a temporary folder.</li>
+                        <li>Connect to your website via FTP and upload the files inside the temp folder to your theme directory (such as wp-content/themes/gigawatt)</li>
+                    </ol>
+                    <p><img src="../images/Documentation/large/20072012204606_updateocmx.png" alt="" width="687" height="166" /></p>
+                    <div class="setting">If you have issues updating, or if an update fails, you can safely reinstall your theme by downloading a fresh copy, unzipping it, and uploading the theme folder to wp-content/themes. Please backup your custom.css prior to reinstalling to retain any custom styles. You may safely restore the <strong>custom.css</strong> after reinstalling.</div>
+                    <h3><a name="kiosk-widget-overview">Kiosk Widget Overview</a></h3>
+                    <p>Go to <em>Appearance &gt; Widgets.</em> Under the <strong>Widgets Section</strong> on the right, you will see a number of panels that you can expand. You   can drag and drop widgets into these panels to customize some of the   content and features of your WordPress site.</p>
+                    <p>Each widget area specific to your theme has been color coded to make  setup easy. Simply drag the widgets you need into the corresponding  panels. To view the recommended widget setup for this theme click the <strong>Click Here</strong> link at the top of the page. Below is an explaination of each widget and how to configure it.</p>
+                    <h6>(Obox) Search Box</h6>
+                    <p>Allows visitors to search the content of your site.<em> This widget will not search products!</em></p>
+                    <h6>(Obox) Social Links</h6>
+                    <p>This widget will display a small icon bar containing icon links to   your social profiles.Enter in the social networks that you are part of   in this area. Remember to use the full URL.</p>
+                    <h6>(Obox) Twitter Stream</h6>
+                    <p>Shows a nicely styled stream of your latest twitter posts, including   how long ago and a link to the tweet. Enter your Twitter username and   number of tweets to show and click <em>Save.</em></p>
+                    <h3><a name="adding-custom-layouts-using-page-templates-">Adding Custom Layouts Using Page Templates </a></h3>
+                    <p>Your Obox Theme comes with some custom templates for displaying your posts or images, such as the Archive, Gallery List, Portfolio List, Full-Width, Services or Contact templates. Note that not all themes have all templates. Please refer to the Theme demo page for details on which templates your theme supports.</p>
+                    <p>Setting up layouts with these templates may be explained in detail in this section if your theme has special instructions. Below are the general steps for using Page Templates:</p>
+                    <ol>
+                        <li>From your WordPress admin panel, click on <strong>Pages -&gt; Add New</strong></li>
+                        <li>Add a page title. In most cases, you do not need to add any content to the post editor (leave it blank)</li>
+                        <li>Select your desired page template under the&nbsp; <strong>Page Template </strong>menu in the right sidebar.</li>
+                        <li>Click <strong>Publish</strong></li>
+                    </ol>
+                    <div class="tooltip">To add a page to your website&nbsp; menu, go to Appearance &gt; Menus.</div>
+                    <h3><a name="create-a-full-width-page">Create a Full Width Page</a></h3>
+                    <p>When you want a page to be full width (i.e with no sidebar) then you need to do the following:</p>
+                    <ol>
+                        <li>Go to Pages &gt; Add New</li>
+                        <li>Add your title and content</li>
+                        <li>Select the <span class="setting">Full Width</span> option which is on the right hand side under <strong>Page Attributes &rarr; Template</strong>.</li>
+                        <li>Press Publish</li>
+                    </ol>
+                    <div class="tool-tip">
+                        <p><strong>How do I get my full width page to show on the site?</strong></p>
+                        <p>Make sure you have added your full width page to the WordPress menu. If you have done so then it will appear on your site in the menu section.</p>
+                    </div>
+                    <h3><a name="all-my-pages-are-cluttered-up-next-to-the-logo">All my pages are cluttered up next to the logo</a></h3>
+                    <p>This means you will need to setup your menu, check out <strong>How To &gt; Adding a Menu to Your Theme</strong> in the documentation.</p>
+                    <p><img src="http://cdn.obox-design.com/documentation/wp-nav-pagelist.jpg" alt="" width="550" height="230" /></p>
+                    <h3><a name="how-to-update-your-theme">How to Update Your Theme</a></h3>
+                    <p>All OCMX 2.0+ themes come with an auto-update feature which allows you to download and install updates with the click of a button. If you have modified your theme, you may still review each update and install them manually by checking your theme's Hotfix Page, linked from the theme's forum sidebar.</p>
+                    <div class="tooltip">
+                        <p><strong>Special Note for eCommerce Themes:</strong></p>
+                        <p>Always update your base theme first!&nbsp; The most fool-proof way is to temporarily activate your base theme, then follow the below instructions to update. When complete, re-activate your eCommerce theme and repeat these steps using Theme Options &raquo; <span class="setting">Update Child Theme</span>.</p>
+                    </div>
+                    <h4>To update your theme using the updater:</h4>
+                    <ol>
+                        <li>Backup your custom.css and any other modified theme files.</li>
+                        <li>Go to Theme Options &raquo; <span class="setting">Update</span> and check your installed theme version in the right corner.</li>
+                        <li>Click <span class="setting">Install</span> next to each update you need to get up-to-date.</li>
+                        <h6>For example:</h6>
+                        <p>&nbsp;if your version is 1.2.0 and there is 1.2.1 and 1.2.2 available, click install for 1.2.1, then proceed with 1.2.2 and so on.</p>
+                        <img src="../images/Documentation/large/20072012204106_howtoupdate.png" alt="" width="739" height="292" />
+                        <li>Wait for the update to finish before proceeding to other updates.</li>
+                    </ol>
+                    <div class="tooltip">If you had previously modified theme files that were overwritten by an  update, you must move the changes into the new file. Do not overwrite or  restore updated theme files with older versions, or the theme may  break!</div>
+                    <h4>Update Manually:</h4>
+                    <ol>
+                        <li>Go to Theme Options &gt; Update to check your current theme version in the right corner.</li>
+                        <li>Visit your theme's Hotfix page (linked from the theme forum) and download each hotfix you need.</li>
+                        <li>Unzip each file into a temporary folder.</li>
+                        <li>Connect to your website via FTP and upload the files inside the temp folder to your theme directory (such as wp-content/themes/gigawatt)</li>
+                    </ol>
+                    <p><img src="../images/Documentation/large/20072012204606_updateocmx.png" alt="" width="687" height="166" /></p>
+                    <div class="setting">If you have issues updating, or if an update fails, you can safely reinstall your theme by downloading a fresh copy, unzipping it, and uploading the theme folder to wp-content/themes. Please backup your custom.css prior to reinstalling to retain any custom styles. You may safely restore the <strong>custom.css</strong> after reinstalling.</div>
+                    <h3><a name="i-get-a-file_get_contents-warning-in-the-update-panel">I get a "file_get_contents();" Warning in the update panel</a></h3>
+                    <p>If you see a warning similar to the one below on your theme or plugin Update panel:</p>
+                    <p><strong>Warning</strong>: file_get_contents(http://www.obox-design.com/hotfixes-IDOFYOURPRODUCT.xml) [<a href="http://poshmedia.ch/promiagent/wp-admin/function.file-get-contents">function.file-get-contents</a>]: failed to open stream. ... on line <strong>19</strong></p>
+                    <p>See if you can edit your php.ini file on the server and find the following: <strong>allow_url_fopen = Off</strong></p>
+                    <p>Change the value to "On" so it says <strong>allow_url_fopen = On</strong></p>
+                    <p>This should fix the issue. If you can't edit your php.ini please ask your hoster if they could change that value.</p>
+                    <p>If the cannot, the best fallback is to re-download and re-install a fresh copy of the theme or plugin.</p>
+                    <h3><a name="images-are-not-scalingresizingcropping-correctly">Images are not scaling/resizing/cropping correctly</a></h3>
+                    <p>There are several factors for why your images may not appear within the theme properly.</p>
+                    <p>1. Go to<strong> Theme Options &gt; General</strong> and check the Thumbnail option you have selected (some themes may not have this option). This option must coincide with how you are adding featured images to your posts.</p>
+                    <p>2. Ensure your folder permissions have been set properly. Refer to the Getting Started section for details.</p>
+                    <p>3. Update Timthumb. If you are using the WordPress featured images, the Timthumb reszing script may need to be updated. Download and activate the <a href="http://wordpress.org/extend/plugins/timthumb-vulnerability-scanner/" target="_blank">Timthumb Vulnerability Scanner</a> (or search and install under Plugins &gt; Add New). Once installed, go to Tools . Timthumb Scanner and click Scan. Apply the update found for your theme.</p>
+                    <h3><a name="images-show-up-lowres-or-in-poor-quality">Images show up low-res or in poor quality</a></h3>
+                    <p>You may notice your featured images on the main page, product pages and blog post appear stretched or in poor quality,even if you have uploaded large image sizes. WooCommerce uses the WordPress method for handling images, therefore the image quality is determined by the WooCommerce settings and not by the theme.</p>
+                    <ol>
+                        <li>Verify you are uploading images that are larger than 580px wide.</li>
+                        <li>Visit your WooCommerce Settings and set your thumbnail sizes. Visit <a href="#how-to-setup-woocommerce"><em>How to Setup WooCommerce</em> </a>under<strong> How To</strong>.</li>
+                    </ol>
+                    <p style="padding-left: 30px;"><img src="http://cl.ly/G4Jt/Screen%20shot%202012-04-23%20at%205.15.19%20PM.png" alt="" width="562" height="224" /></p>
+                    <ol>
+                    </ol>
+                    <h3><a name="my-gallery-images-are-not-displaying">My Gallery Images are not Displaying</a></h3>
+                    <p>If your gallery images are not displaying or uploading, there are two issues which could be the cause.</p>
+                    <p>In some cases the gallery folders don't get created by the theme so you may  need to added them manually to your wordpress folder (using an FTP program, or  your site's cpanel).</p>
+                    <p>The folders are:</p>
+                    <p><strong>wp-content/uploads/ocmx-gallery/thumbs/</strong><br />
+                        <strong>wp-content/uploads/ocmx-gallery/small/</strong><br />
+                        <strong>wp-content/uploads/ocmx-gallery/large/</strong></p>
+                    <p>If this does not work, you may need to update your WordPress database via phpMyAdmin, here is a link to the <a href="http://cdn.obox-design.com/documentation/gallery_data_tables.txt">SQL File</a>.<strong></strong><strong><br />
+                        </strong></p>
+                    <h3><a name="theme-options-error--parse-error-syntax-error-unexpected-t_string">Theme Options Error - 'Parse error: syntax error, unexpected T_STRING'</a></h3>
+                    <p>If you experience the following error when accessing your <strong>Theme Options</strong>, you will need to update your server to PHP5</p>
+                    <p>Parse error: syntax error, unexpected T_STRING, expecting T_OLD_FUNCTION  or T_FUNCTION or T_VAR or '}' in  /home/content/q/u/a/qualitymedia/html/xsubs/christopherdortch/wp-content/themes/photo-list/ocmx/interface/ocmx-container.php  on line 4</p>
+                    <p>Here is some documentation on the matter:</p>
+                    <p><a href="http://codex.wordpress.org/Switching_to_PHP5">Switching to PHP5</a></p>
+                    <p><a href="http://wordpress.org/news/2010/07/eol-for-php4-and-mysql4/">PHP 4 and MySQL 4 End of Life Announcement</a></p>
+                    <p>&nbsp;</p>
+                    <h3><a name="theme-options-error--warning-cannot-modify-header-information">Theme Options Error - 'Warning: Cannot modify header information'</a></h3>
+                    <p>To fix the following error, you only need to click on the <strong>Plugins</strong> section, and go back to <strong>Theme Options</strong>, the error will disappear.</p>
+                    <p><strong>Warning</strong>: Cannot modify header information - headers  already sent by (output started at  /storage/content/65/101265/blogg.vindelnsfolkhogskola.se/public_html/wp-content/themes/press/ocmx/interface/general.php:43)  in&nbsp;<strong>/***/public_html/wp-includes/functions.php</strong>&nbsp;on line&nbsp;<strong>830</strong><br />
+                        <br />
+                        <strong>Warning</strong>:  Cannot modify header information - headers already sent by (output  started at  /storage/content/65/101265/blogg.vindelnsfolkhogskola.se/public_html/wp-content/themes/press/ocmx/interface/general.php:43)  in&nbsp;<strong>/***/</strong><strong>public_html/wp-includes/functions.php</strong>&nbsp;on line&nbsp;<strong>831</strong></p>
+                    <h3><a name="where-are-the-shortcodes">Where are the Shortcodes?</a></h3>
+                    <p>Shortcodes are little tags you may enter into your posts and pages which help build specially-styled content or pull in extended features or elements. The problem with building shortcodes into a theme is if you ever change themes, all of your content breaks as the shortcodes are no longer active. Rather than leave you in this situation, we don't build shortcodes into the theme. There are so many great plugin authors out there that already provide some excellent shortcode functionality. To view available plugins, go to Plugins &gt; Add New and search for "shortcodes." You may also check out the <a href="http://wordpress.org/extend/plugins/shortcodes-ultimate/">Shortcode Ultimate</a> plugin, which provides just about everything you could ask for.</p>
+                    <h3><a name="where-do-i-find-my-themeforest-license-key">Where do I find my Themeforest license key?</a></h3>
+                    <p>To update Obox Mobile or register for forum support as a Themeforest user, you must have your license key. This key is called the Item Purchase Code and is found in your Themeforest profile:</p>
+                    <p>1. Click the License Certificate link under the item in your Downloads tab:</p>
+                    <p><img src="../images/Documentation/large/08082012133320_license.png" alt="" width="406" height="132" /></p>
+                    <p>2. Open the file in the default viewer or download the file and open it locally.</p>
+                    <p>The Item Purchase Code is listed near the bottom and is a long strong of numbers and letters divided into groups by hyphens. Example (this is not a real code!):</p>
+                    <p>ab12b3c4-5d67-890e-f9g9-hijk8l7m12345</p>
+                    <p>3. Paste this code into the License Key field of your Obox Mobile update page, or your profile activation field.</p>
+                    <div class="tooltip">
+                        <p>If you have issues with obtaining your license key from Themeforest, please contact Envato support through the Themeforest website.</p>
+                        <p>If you have your license key, but cannot update Obox Mobile, please post a support request in the Obox Mobile forum here on the Obox Themes website.</p>
+                        <p>If you cannot activate your Obox profile in order to access the support forums, but have your license key, please send it to us, along with your Obox username, using the Contact form here on the Obox Themes website.</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>

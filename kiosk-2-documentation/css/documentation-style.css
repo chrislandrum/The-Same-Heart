@@ -1,0 +1,124 @@
+/*
+Name: OBOX
+Design Studio: Obox Design http://www.obox-design.com/
+Version: Documentation
+Author: Obox Design
+Author URI: http://www.obox-design.com/
+You can have a look around but don't judge ;)
+*/
+
+@import url(reset.css);
+@import url(clearfix.css);
+
+body{margin: 0px; padding: 0px; color: #333; font-size: 13px; background: #111; line-height: 1.6em;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+a{color: #3D536C; text-decoration: none; font-weight: 600;}
+a:hover{color: #000;}
+a:active{text-decoration: #333;}
+strong{font-weight: bold;}
+em{font-style: italic;}
+
+#header-container{background: #111; border-bottom: 3px solid #000;}
+#header{width: 940px; margin: auto; line-height: normal; position: relative; z-index: 4;}
+
+.content-container{width: 940px; margin: auto; clear: both; background: #fff; overflow: hidden;}
+.full-width{padding: 0px 0px 0px; margin: auto;}
+
+/*-------------------------------------------------------------------------------------------*/
+/*- DOC MENU ---------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+
+.documentation-menu{position: fixed; float: left; width: 220px; padding: 30px 10px 30px; margin: 0px; background: #111; font-size: 12px;}
+.documentation-menu h5{padding: 4px 0px; color: #ccc; font-size: 14px; font-weight: bold;}
+.documentation-menu h5 a{display: block; color: #ccc;}
+.documentation-menu h5 a:hover{color: #fff;}
+.documentation-menu ul{padding: 0px;}
+.documentation-menu ul ul{display: none; border-top: 2px solid #555; border-bottom: 2px solid #555;}
+.documentation-menu ul ul li{padding: 3px 8px 3px 12px; border-bottom: 1px dotted #333; background: url(http://cdn.obox-design.com/layout/sprite.png) -545px -1212px no-repeat;}
+.documentation-menu ul ul li:last-child{border-bottom: none;}
+.documentation-menu ul ul li a{display: block; font-weight: normal; color: #ccc;}
+.documentation-menu ul ul li a:hover{color: #0cf;}
+
+.documentation-menu .active{margin: 0px 0px 5px;}
+.documentation-menu  ul.active{display: block;}
+.documentation-menu .active h5 a{color: #fff;}
+	
+	
+	/*----------------------*/
+	/*- CTA MENU BUTTONS ---*/
+	.menu-block{padding: 5px 10px 10px; margin-top: 20px; background: #000; border: 1px solid #333; border-radius: 5px;}
+	.menu-block h4{color: #fff; text-transform: uppercase; font-size: 11px; font-weight: bold;}
+	.menu-block p{color: #999; font-size: 11px; line-height: 1.2em; margin-bottom: 8px; font-weight: bold;}
+	.menu-block li{padding: 3px 8px 3px 12px; border-bottom: 1px dotted #333; background: url(http://cdn.obox-design.com/layout/sprite.png) -545px -1212px no-repeat;}
+	.menu-block li:last-child{border: none; padding-bottom: 0px;}
+	.menu-block li a{color: #fff;}
+	.menu-block li a:hover{color: #0cf;}
+	
+	/*---------*/
+	/*- KEY ---*/
+	.key li{display: inline-block; padding: 0px 6px; margin-bottom: 5px; border-radius: 3px; border: none; color: #fff; text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4); font-weight: bold;}
+	.key li:last-child{margin: 0px;}
+	.key li.setting-area{background: #c00;}
+	.key li.widget-option{background: #693;}
+	.key li.setting-option{background: #83B6D5;}
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*- DOCUMENTATION CONTENT -------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+ul.two-col-docs{background: #111;}
+ul.two-col-docs li.column{float: left; padding: 0px; margin-left: 240px; background: #fff; position: relative;}
+
+.documentation-header{width: 662px; padding: 30px 0px 25px; margin: 0px 19px; background: #fff; border-bottom: 2px solid #000; position: fixed;}
+
+.documentation-crumbs{margin-bottom: 20px; background: none; overflow: hidden; font-size: 11px;}
+.documentation-crumbs li{float: left;}
+.documentation-crumbs li span{padding: 0px 10px; color: #999;}
+.documentation-crumbs li a{color: #999;}
+.documentation-crumbs li:last-child a{color: #595959;}
+.documentation-crumbs li a:hover{color: #3D536C;}
+
+.page-title{font-size: 35px; line-height: 40px; color: #000; font-weight: bold; overflow: hidden;}
+.page-title h1{float: left;}
+
+.search-box{float: right; padding: 3px; margin-top: 4px; width: 192px; background: #fff; border: 1px solid #ccc; box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1);
+			border-radius: 3px;}
+.search-box input[type=text]{float: left; width: 115px; padding: 4px 5px 3px 5px; border: none; font-size: 12px; color: #777; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.search-box input[type=submit]{float: right; padding: 3px 8px; background: url(http://www.obox-design.com/images/layout/download-btn-bg.jpg); border: 1px solid #b4b4b4; border-radius: 3px; cursor: pointer;
+								font-weight: bold; font-size: 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; text-transform: uppercase; color: #333; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);}
+
+
+	/*- RESET SOME CLASSES FOR THE COPY AFTER CLEARING EVERYTHING AT THE TOP OF THE CSS  -*/
+	.post{width: 660px; padding: 145px 20px 40px;}
+	.post p{clear: none; margin-bottom: 12px; }
+	.post a{text-decoration: underline;}
+	.post ol, .post ul{list-style: disc; margin: 0px 0px 16px 19px;}
+	.post ul li ul{margin-bottom: 0px; margin: 0px 0px 10px 15px;}
+	.post ul li ul li{list-style: circle;}
+	.post ol{list-style: decimal;}
+	.post code, .post pre{}
+	.post span.setting{background: #83B6D5; border-radius: 3px; padding: 1px 4px; white-space: nowrap; font-weight: bold; color: #fff; text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);}
+	.post span.widget{background: #693; border-radius: 3px; padding: 1px 4px; white-space: nowrap; font-weight: bold; color: #fff; text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);}
+	.post .new-line{display: block; font-weight: bold;}
+	.post img{margin: 20px 0px; padding: 8px; background: #f5f5f5; border: 1px solid #ddd; text-align: center; display: block; border-radius: 3px;}
+	.post li img{margin-left: -19px;}
+	.post h3{margin: 40px 0px 10px; padding: 0px 0px 10px; border-bottom: 2px solid #ccc; color: #000; font-size: 22px; line-height: 1.2em; font-weight: bold;}
+	.post h3 a{color: #000; text-decoration: none;}
+	.post h3:first-child{margin-top: 0px;}
+	.post h4{padding-bottom: 10px; margin: 30px 0px 10px; border-bottom: 1px solid #ddd; font-size: 16px; font-weight: bold; color: #c00;}	
+	.post h5{font-weight: bold; margin-bottom: 0px; color: #000; font-size: 15px;}
+	.post h5 span{color: #595959; font-size: 13px;}
+	.post h6{font-weight: bold; color: #693; text-transform: uppercase; font-size: 12px;}
+	
+	.post .tool-tip{margin-top: 30px; padding: 10px 10px 10px 50px; background: #fff url(http://www.obox-design.com/images/layout/my-profile-sprite.png) -462px 0px no-repeat; border: 1px solid #ddd; border-radius: 5px;}
+	.post .tool-tip + h5{margin-top: 30px;}
+		
+	.note{padding: 5px 8px; background: #f9e277; border: 1px solid #cda51b; border-radius: 3px; color: #000; font-weight: bold;}
+	
+	
+	
+	
